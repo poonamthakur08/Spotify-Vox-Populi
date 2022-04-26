@@ -7,11 +7,11 @@ import requests
 import time
 
 
-access_token = "607625991-WFcqaqdDxALYRokUSS6JVHqeCBZb3GfbmSS3FpGz"
-access_token_secret =  "D1uQfOcP21lQKmP0vsFxlf8GoFHqTfQYAvZE0Bja4IPnY"
-api_key =  "KeSG46RbWBtNgxJI1kNB7lSu7"
-api_secret =  "ING79wSpqKcg4xcrj1VQTITsUa9uPNu1fQWYk2EWoA7HtZXkmG"
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAGBVbQEAAAAArX1fVXwiGZjpEccQB7ISyiBoDY4%3Db9FCiy3BC4dZFoHOvfUn5WzkMpcrwVjJlG3AN5RNhrbIxXSR2z"
+access_token = #"607625991-WFcqaqdDxALYRokUSS6JVHqeCBZb3GfbmSS3FpGz"
+access_token_secret =  #"D1uQfOcP21lQKmP0vsFxlf8GoFHqTfQYAvZE0Bja4IPnY"
+api_key =  #"KeSG46RbWBtNgxJI1kNB7lSu7"
+api_secret =  #"ING79wSpqKcg4xcrj1VQTITsUa9uPNu1fQWYk2EWoA7HtZXkmG"
+bearer_token = #"AAAAAAAAAAAAAAAAAAAAAGBVbQEAAAAArX1fVXwiGZjpEccQB7ISyiBoDY4%3Db9FCiy3BC4dZFoHOvfUn5WzkMpcrwVjJlG3AN5RNhrbIxXSR2z"
 
 headers = {"Authorization": "Bearer {}".format(bearer_token)}
 
