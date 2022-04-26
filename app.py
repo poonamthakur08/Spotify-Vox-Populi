@@ -27,7 +27,7 @@ sentiment_val = [0,0,0]
 sentiment_label = ['Positive', 'Neutral','Negative']
 
 
-musixmatch = Musixmatch('b84b1fbecba37a3c23f489d2eef719a1')
+musixmatch = Musixmatch('')
 
 r = redis.StrictRedis(host='localhost',
                                 port=6379,
