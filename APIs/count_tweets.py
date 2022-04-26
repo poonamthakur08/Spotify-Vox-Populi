@@ -4,7 +4,7 @@ import json
 
 # To set your environment variables in your terminal run the following line:
 # export 'BEARER_TOKEN'='<your_bearer_token>'
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAGBVbQEAAAAArX1fVXwiGZjpEccQB7ISyiBoDY4%3Db9FCiy3BC4dZFoHOvfUn5WzkMpcrwVjJlG3AN5RNhrbIxXSR2z"
+BEARER_TOKEN = ""
 bearer_token = BEARER_TOKEN
 
 #from kafka import KafkaProducer
