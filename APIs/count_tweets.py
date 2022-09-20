@@ -7,9 +7,9 @@ import json
 BEARER_TOKEN = ""
 bearer_token = BEARER_TOKEN
 
-#from kafka import KafkaProducer
-#producer = KafkaProducer(bootstrap_servers='localhost:9092') #Same port as your Kafka server
-#topic_name = "number-tweets"
+# from kafka import KafkaProducer
+# producer = KafkaProducer(bootstrap_servers='localhost:9092') #Same port as your Kafka server
+# topic_name = "number-tweets"
 
 search_url = "https://api.twitter.com/2/tweets/counts/recent"
 # Optional params: start_time,end_time,since_id,until_id,next_token,granularity
@@ -34,7 +34,11 @@ def connect_to_endpoint(url, params):
 
 
 def count_tweets(query):
-    query_params = {'query': query,'granularity': 'day', 'search_count.fields': 'tweet_count'}
+    query_params = {
+        "query": query,
+        "granularity": "day",
+        "search_count.fields": "tweet_count",
+    }
     json_response = connect_to_endpoint(search_url, query_params)
     data = json_response["data"]
     res = []
@@ -42,5 +46,5 @@ def count_tweets(query):
     for i in range(len(data)):
         date.append(data[i]["start"][:10])
         res.append(data[i]["tweet_count"])
-    res = {"Date" : date, "Count":res}
+    res = {"Date": date, "Count": res}
     return res

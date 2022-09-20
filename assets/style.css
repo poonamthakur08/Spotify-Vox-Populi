@@ -1,0 +1,16 @@
+#dis {
+    display: block;
+    margin-top: -10px;
+}
+
+#map-graph {
+    background: rgb(17, 17, 17);
+}
+
+#stream-graph{
+    background: rgb(17, 17, 17);
+}
+
+#tweet-graph{
+    background: rgb(17, 17, 17);
+}

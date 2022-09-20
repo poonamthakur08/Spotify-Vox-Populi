@@ -33,11 +33,9 @@ def subjectivity_detection(text):
 
 
 def text_classification(words):
-
     # polarity detection
     polarity_detection_udf = udf(polarity_detection, StringType())
     words = words.withColumn("polarity", polarity_detection_udf("word"))
-
     # subjectivity detection
     subjectivity_detection_udf = udf(subjectivity_detection, StringType())
     words = words.withColumn("subjectivity", subjectivity_detection_udf("word"))
