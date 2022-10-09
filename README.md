@@ -15,4 +15,4 @@
 ### Slides
 --------
 
-You can find slide ![here]([https://link-url-here.org](https://docs.google.com/presentation/d/1IODAfQ1i6H0ijv9QEhyrWWIfELtlPjD7xQ1vL7c0nSM/edit?usp=sharing)).
+You can find slide [here](https://docs.google.com/presentation/d/1IODAfQ1i6H0ijv9QEhyrWWIfELtlPjD7xQ1vL7c0nSM/edit?usp=sharing).
